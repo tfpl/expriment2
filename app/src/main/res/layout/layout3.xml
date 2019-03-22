@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:stretchColumns="2"
+android:background="#0C0C0C"
+    >
+<TableRow android:background="#0C0C0C">
+
+        <Button
+            android:text="Open.."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#0C0C0C"
+            android:textColor="#FAF7F7"
+            />
+    <Button
+        android:text="Ctrl-O          "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0C0C0C"
+        android:textColor="#FAF7F7"
+        android:layout_column="2"
+        android:gravity="right"
+        />
+</TableRow>
+    <TableRow android:background="#0C0C0C">
+
+        <Button
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0C0C0C"
+            android:textColor="#FAF7F7"
+            />
+        <Button
+            android:text="Ctrl-S          "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:background="#0C0C0C"
+            android:textColor="#FAF7F7"
+            android:layout_column="2"
+            />
+    </TableRow>
+    <TableRow android:background="#0C0C0C">
+
+        <Button
+            android:text="Save as"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#0C0C0C"
+            android:textColor="#FAF7F7"
+            />
+        <Button
+            android:text="Ctrl-shift-s         "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0C0C0C"
+            android:textColor="#FAF7F7"
+            android:layout_column="2"
+            android:gravity="right"
+
+            />
+    </TableRow>
+
+    <TableRow
+
+    android:layout_height="1dp"
+    android:background="#ffffff">
+        <TextView
+            android:layout_height="1dp"
+            />
+
+    </TableRow>
+    <TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#0C0C0C">
+    <Button
+        android:text="X Import"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#0C0C0C"
+        android:textColor="#FAF7F7"
+        />
+    <Button
+        android:background="#0C0C0C"/>
+
+
+</TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0C0C0C">
+        <Button
+            android:text="X Export"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#0C0C0C"
+            android:textColor="#FAF7F7"
+            />
+        <Button
+            android:text="Ctrl-E       "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0C0C0C"
+            android:textColor="#FAF7F7"
+            android:layout_column="2"
+            android:gravity="right"/>
+    </TableRow>
+    <TableRow
+
+        android:layout_height="1dp"
+        android:background="#ffffff">
+        <TextView
+            android:layout_height="1dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0C0C0C">
+        >
+        <Button
+            android:text="Quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#0C0C0C"
+            android:textColor="#FAF7F7"
+            />
+        <Button
+            android:background="#0C0C0C"
+            android:layout_column="2"
+            />
+
+    </TableRow>
+</TableLayout>
